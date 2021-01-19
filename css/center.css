@@ -19,6 +19,10 @@ header {
   align-items: center;
 }
 
+header h1 a {
+  color: white;
+}
+
 header .logo {
   font-size: 2em;
   text-transform: uppercase;
@@ -33,7 +37,7 @@ header .logo a {
   position: relative;
   width: 60px;
   height: 60px;
-  background: url(icons/menu.png);
+  background: url(../assets/icons/menu.png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -41,7 +45,7 @@ header .logo a {
 }
 
 .toggle.active {
-  background: url(icons/close.png);
+  background: url(../assets/icons/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -66,7 +70,7 @@ header .logo a {
   right: 300px;
 }
 
-.showcase video {
+.showcase img {
   position: absolute;
   top: 0;
   left: 0;
@@ -82,7 +86,7 @@ header .logo a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #625a82;
   mix-blend-mode: overlay;
 }
 
@@ -94,7 +98,7 @@ header .logo a {
 
 .text h3 {
   font-size: 2em;
-  /* font-weight: 800; */
+  font-weight: 600;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
@@ -111,6 +115,7 @@ header .logo a {
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
+  transition-delay: 3s;
   -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 6s; /* Firefox < 16 */
   -ms-animation: fadein 6s; /* Internet Explorer */
@@ -130,6 +135,7 @@ header .logo a {
   justify-content: space-around;
   align-items: center;
   vertical-align: top;
+  transition-delay: 6s;
   -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 10s; /* Firefox < 16 */
   -ms-animation: fadein 10s; /* Internet Explorer */
@@ -149,10 +155,17 @@ header .logo a {
   text-align: center;
 }
 
-i {
+a i {
   height: 100px;
   width: 100px;
   margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+a i:hover {
+  color: #9362bf;
 }
 
 @keyframes fadein {
@@ -179,6 +192,12 @@ i {
 
 .text a:hover {
   letter-spacing: 6px;
+}
+
+.me {
+  position: absolute;
+  right: 445px;
+  top: 150px;
 }
 
 .social {
