@@ -23,6 +23,11 @@ header h1 a {
   color: white;
 }
 
+header h1 a:hover {
+  transition: 0.2s;
+  color: #b665ff;
+}
+
 header .logo {
   font-size: 2em;
   text-transform: uppercase;
@@ -180,7 +185,7 @@ a i {
 }
 
 a i:hover {
-  color: #9362bf;
+  color: #b665ff;
 }
 
 @keyframes fadein {
@@ -204,6 +209,14 @@ footer .copyright {
 .social {
   text-align: center;
   padding-top: 10px;
+}
+
+.fa-facebook:hover {
+  color: #73a2ff;
+}
+
+.fa-soundcloud:hover {
+  color: #ff7700;
 }
 
 .menu {

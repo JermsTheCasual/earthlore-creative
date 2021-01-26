@@ -23,6 +23,11 @@ header h1 a {
   color: white;
 }
 
+header h1 a:hover {
+  transition: 0.2s;
+  color: #b665ff;
+}
+
 header .logo {
   font-size: 2em;
   text-transform: uppercase;
