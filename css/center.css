@@ -175,7 +175,7 @@ header .logo a {
 
 .grid-row:hover
 {
-  transform: translateY(15px);
+  transform: translateY(-15px);
 }
 
 
