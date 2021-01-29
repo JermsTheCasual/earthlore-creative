@@ -7,4 +7,4 @@ menuToggle.addEventListener('click', () => {
 })
 
 // Slow down Cover Page background video playback
-document.querySelector('video').defaultPlaybackRate = 2.0;
+document.querySelector('video').defaultPlaybackRate = 0.5;
